@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Layout Exercise</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        header{
+            background: lightblue;
+            border-style: solid;
+            padding-left: 20px;
+        }
+
+        .nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            
+        }
+        a{
+            display: flex;
+            align-self: center;
+            margin-bottom: 10px;
+            border-right-style: solid;
+            padding: 10px;
+        }
+
+        footer{
+            background: lightblue;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            border-top-style: solid;
+        }
+        
+        .top{
+            text-align: center;
+            font-size: 40px;
+            padding: 40px;
+            border-bottom-style: solid;
+        }
+
+        .middle{
+            padding: 20px;
+            border-bottom-style: solid;
+        }
+
+        .mt{
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .ml{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
+
+        .bottom{
+            text-align: center;
+            padding: 20px;
+            
+        }
+        
+        .bt{
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <b>Our Company</b>
+        <div class="nav">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Company</a></li>
+            <li><a href="">Blog</a></li>
+        </div>
+    </header>
+
+    <div class="top">
+        We Are Awesome
+    </div>
+
+    <div class="middle">
+        <div class="mt">Awesomeness</div>
+        <div class="ml">
+            <ul>
+                <b>Boldness 1</b>
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ul>
+            <ul>
+                <b>Boldness 2</b>
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ul>
+            <ul>
+                <b>Boldness 3</b>
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <img src="https://dotesports-cdn-prod-tqgiyve.stackpathdns.com/thumbor/0V0QvI5D0ANyzrwPj1F_pSV1LMc=/1200x0/filters:no_upscale()/https://dotesports-cdn-prod-tqgiyve.stackpathdns.com/article/54bae90a-90bf-4208-b775-d6ac96c53412.jpg" width="200px">
+        <img src="https://s.yimg.com/ny/api/res/1.2/H9CfZYmxTm1JB5RgTmfVBw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzQ0O2g9NDk2/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/9857b24520b74fdc41b68bf664d2b21f" width="200px">
+        <div class="bt">  
+            <p>Awesome Person 1: Doublift &nbsp;&nbsp;</p>
+            <p>Awesome Person 2: Rekkles</p>
+        </div>
+    </div>
+
+
+
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
